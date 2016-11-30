@@ -1,0 +1,33 @@
+.plot {
+    height: 220px;
+    width: 250px;
+    display: inline-block;
+    margin: 5px;
+    margin-bottom: 30px;
+}
+
+.plot-wrap{
+    display: inline-block;
+}
+
+.plot-title {
+    margin-bottom: -10px;
+    padding-left: 50px;
+    width: 250px;
+}
+.plots {
+    margin-top: 20px;
+}
+
+#heart-rate .rs-range-color  {
+    background-color: red;
+}
+#amplitude .rs-range-color  {
+    background-color: green;
+}
+#peak .rs-range-color  {
+    background-color: blue;
+}
+#symmetry .rs-range-color  {
+    background-color: white;
+}
