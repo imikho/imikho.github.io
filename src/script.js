@@ -63,7 +63,7 @@ $(document).ready(function () {
     $("#patient-select").change(function() {
         console.log($("#file-select").val());
         calculate();
-    }).change();
+    });
     $("#percent").roundSlider({
         radius: 50,
         min: 0,
@@ -108,6 +108,7 @@ $(document).ready(function () {
             }
         }
     }
+    calculate();
     function calculate() {
         $('.plots').html('');
         $('#result').html('');
