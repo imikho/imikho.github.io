@@ -53,6 +53,7 @@ $(document).ready(function () {
             }
         }
         fillSelect();
+        calculate();
     }, 'text');
     function fillSelect() {
         for (var i = 0; i < patients.length; i++) {
@@ -108,7 +109,7 @@ $(document).ready(function () {
             }
         }
     }
-    calculate();
+    
     function calculate() {
         $('.plots').html('');
         $('#result').html('');
