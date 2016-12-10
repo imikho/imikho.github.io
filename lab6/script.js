@@ -75,7 +75,7 @@ $(document).ready(function () {
             data: derivativeSignal,
             lines: {
                 show: true,
-                lineWidth: 50
+                lineWidth: 3
             }
         }]);
     }
