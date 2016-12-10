@@ -1,7 +1,7 @@
 /**
  * Created by ivan on 28.10.16.
  */
-$(document).ready(function () {
+$(document).ready(function () {    
     var keys = ['peace', 'load', 'rest'];
     var label = ['ЧСС', 'Средняя симметрия T', 'СКО симетрии T', 'SDNN, мс.', 'Индекс напряжения', 'Сдвиг ST, мв.', 'Интервал P-Q(R), мс.', 'Площади T/R']
     var patients = [];
@@ -53,6 +53,7 @@ $(document).ready(function () {
             }
         }
         fillSelect();
+        calculate();
     }, 'text');
     function fillSelect() {
         for (var i = 0; i < patients.length; i++) {
@@ -108,6 +109,7 @@ $(document).ready(function () {
             }
         }
     }
+    
     function calculate() {
         $('.plots').html('');
         $('#result').html('');
