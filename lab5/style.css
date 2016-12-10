@@ -1,0 +1,21 @@
+#placeholder1 {
+    height: 230px;
+}
+#placeholder2 {
+    height: 230px;
+}
+#placeholder3 {
+    height: 230px;
+}
+#heart-rate .rs-range-color  {
+    background-color: red;
+}
+#amplitude .rs-range-color  {
+    background-color: green;
+}
+#peak .rs-range-color  {
+    background-color: blue;
+}
+#symmetry .rs-range-color  {
+    background-color: white;
+}

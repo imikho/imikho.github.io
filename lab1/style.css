@@ -1,0 +1,41 @@
+#message {
+    height: 40px;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+#messages {
+    max-height: 500px;
+    padding-bottom: 200px;
+
+}
+#reply {
+    float: right;
+}
+#messageForm {
+    background-color: white;
+    position: fixed;
+    bottom: 0px;
+    border: 1px dotted;
+    padding: 20px;
+}
+
+.message {
+    max-width: 70%;
+    margin-bottom: 10px;
+    opacity: 0.4;
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.leftMsg {
+    float: left;
+    background-color: #b9def0;
+}
+
+.rightMsg {
+    float: right;
+    background-color: #e9f09a;
+}
+

@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="flot/excanvas.js"></script>
+    <script language="javascript" type="text/javascript" src="flot/jquery.flot.js"></script>
+    <link href="roundSlider/dist/roundslider.min.css" rel="stylesheet" />
+
+    <script src="roundSlider/dist/roundslider.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+<div class="col-sm-2">
+    <div class="form-group">
+        <div class="form-group">
+            <label for="file-select">Выберите файл:</label>
+            <select class="form-control" id="file-select">
+                <option value="">Выберите файл</option>
+                <option value="ECG_6_1.txt">ЕКГ_КП6_1.txt</option>
+                <option value="ECG_6_2.txt">ЕКГ_КП6_2.txt</option>
+            </select>
+        </div>
+    </div>
+    <div id="trendWr">
+        <div class="form-group">
+            <label for="tau">Введите задержку сигнала:</label>
+            <div id="tau" class="myRS"></div>
+        </div>
+    </div>
+
+</div>
+<div class="col-sm-10">
+    <div id="placeholder1">
+
+    </div>
+    <div id="placeholder2">
+
+    </div>
+    <div id="placeholder3">
+
+    </div>
+</div>
+</body>
+</html>
